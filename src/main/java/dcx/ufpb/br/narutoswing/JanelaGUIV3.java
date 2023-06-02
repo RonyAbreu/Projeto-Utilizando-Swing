@@ -3,13 +3,12 @@ package dcx.ufpb.br.narutoswing;
 import javax.swing.*;
 import java.awt.*;
 public class JanelaGUIV3 extends JFrame{
-    JLabel titulo, naruto, itachi, sasuke,aldeiaFolha, aldeiaCeu, aldeiaTrovao;
+    JLabel titulo, naruto, itachi, sasuke,aldeiaFolha, aldeiaCeu;
     ImageIcon imgNaruto = new ImageIcon("src/main/resources/narutoKun.png");
     ImageIcon imgSasuke = new ImageIcon("src/main/resources/sasukeKun.png");
     ImageIcon imgItachi = new ImageIcon("src/main/resources/itachiKun.png");
     ImageIcon imgAldeidaFolha = new ImageIcon("src/main/resources/aldeiaDaFolha.png");
     ImageIcon imgAldeidaCeu = new ImageIcon("src/main/resources/aldeiaDoCeu.png");
-    ImageIcon imgAldeidaTrovao = new ImageIcon("src/main/resources/aldeiaDoRelampago.png");
     ImageIcon addImg = new ImageIcon("src/main/resources/addUsuario.png");
     ImageIcon pesqImg = new ImageIcon("src/main/resources/pesqUsuario.png");
     ImageIcon removeImg = new ImageIcon("src/main/resources/removeUsuario.png");
@@ -37,7 +36,6 @@ public class JanelaGUIV3 extends JFrame{
         sasuke = new JLabel(imgSasuke, JLabel.CENTER);
         aldeiaFolha = new JLabel(imgAldeidaFolha, JLabel.CENTER);
         aldeiaCeu = new JLabel(imgAldeidaCeu, JLabel.CENTER);
-        aldeiaTrovao = new JLabel(imgAldeidaTrovao, JLabel.CENTER);
         // PERSONALIZAÇÃO DO BOTÃO ADICIONAR
 
         botaoAdd = new JButton("Adicionar", addImg);
